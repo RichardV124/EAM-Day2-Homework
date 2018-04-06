@@ -12,11 +12,11 @@ export class AppComponent {
 	title = 'app';
 	message = '';
 	listaPosts: Post[] = [];
-	prueba: PruebaComponent = new PruebaComponent('dasdladk');
+	// 	prueba: PruebaComponent = new PruebaComponent('dasdladk');
 
 	constructor() {
 		this.inicializar();
-		this.prueba.setVariable('alvaorjasd');
+		// this.prueba.setVariable('alvaorjasd');
 	}
 
 	inicializar() {

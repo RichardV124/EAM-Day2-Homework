@@ -8,13 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class PruebaComponent implements OnInit {
 	variable = 'hola';
 
-	constructor(variable) {
-		this.variable = variable;
+	constructor() {
+		// this.variable = variable;
 	}
 
-	setVariable(variable) {
-		this.variable = variable;
-	}
+	// setVariable(variable) {
+	// 	this.variable = variable;
+	// }
 
 	ngOnInit() {}
 }
