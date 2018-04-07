@@ -10,12 +10,12 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let registro of listaPosts">
-      <td>{{ registro.userId }}</td>
-      <td>{{ registro.id }}</td>
-      <td>{{ registro.title }}</td>
-      <td>{{ registro.body }}</td>
-      <td><button (click)="deletePost(registro)" >Delete</button></td>
+    <tr *ngFor="let post of listaPosts">
+      <td>{{ post.userId }}</td>
+      <td>{{ post.id }}</td>
+      <td>{{ post.title }}</td>
+      <td>{{ post.body }}</td>
+      <td><button (click)="deletePost(post)" >Delete</button></td>
     </tr>
   </tbody>
 </table>
